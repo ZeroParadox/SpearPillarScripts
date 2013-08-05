@@ -401,7 +401,7 @@ SpearPillarScripts
                              return;
                          }
                      }
-  	 }
+		 }
 		 catch(e) {
 		     // Do nothing //
 		 }
@@ -3213,11 +3213,11 @@ SpearPillarScripts
 	         if (clawresult == 1){
                      sys.sendMessage(src, "+ClawBot: You play the claw machine and get nothing.");
 	         } else if (clawresult == 2){
-                     sys.sendMessage(src, "+ClawBot: You play the claw machine and got Natsu plushie from the machine! ...Ouch! It's hot!");
+                     sys.sendMessage(src, "+ClawBot: You play the claw machine and get a Shinku doll! Ow! She kicked you in the face!");
 	         } else if (clawresult == 3){
-                     sys.sendMessage(src, "+ClawBot: You play the claw machine and got Natsu plushie from the machine! ...Ouch! It's hot!");
+                     sys.sendMessage(src, "+ClawBot: You play the claw machine and get a Shinku doll! Ow! She kicked you in the face!");
 	         } else if (clawresult == 4){
-                     sys.sendMessage(src, "+ClawBot: You play the claw machine and got Natsu plushie from the machine! ...Ouch! It's hot!");
+                     sys.sendMessage(src, "+ClawBot: You play the claw machine and get a Shinku doll! Ow! She kicked you in the face!");
 	         } else if (clawresult == 5){
                      sys.sendMessage(src, "+ClawBot: You play the claw machine and get a Smash Ball. Use it quickly!");
 	         } else if (clawresult == 6){
@@ -3723,7 +3723,7 @@ SpearPillarScripts
 
 	     /** Nowhere else to put this.. **/
              if (command == "motd") {
-                 if (sys.name(src) != "Marth" && sys.name(src) != "Natsu" && sys.name(src) != "Samus Aran") {
+                 if (sys.name(src) != "Marth" && sys.name(src) != "Shinku" && sys.name(src) != "Samus Aran") {
                      sys.sendMessage(src, "+Bot: You do not have the ability to change the MOTD.");
                      return;
                  }
@@ -3749,7 +3749,7 @@ SpearPillarScripts
                  return;
              }
 	     if (command == "creatoruser") {
-                 if (sys.name(src) != "Marth" && sys.name(src) != "Natsu" && sys.name(src) != "Samus Aran") {
+                 if (sys.name(src) != "Marth" && sys.name(src) != "Shinku" && sys.name(src) != "Samus Aran") {
                      sys.sendMessage(src, "+Bot: You do not have the ability to use this command, use /user instead.");
                      return;
                  }
@@ -3770,7 +3770,7 @@ SpearPillarScripts
                  return;
              }
 	     if (command == "creatormod") {
-                 if (sys.name(src) != "Marth" && sys.name(src) != "Natsu" && sys.name(src) != "Samus Aran") {
+                 if (sys.name(src) != "Marth" && sys.name(src) != "Shinku" && sys.name(src) != "Samus Aran") {
                      sys.sendMessage(src, "+Bot: You do not have the ability to use this command, use /mod instead.");
                      return;
                  }
@@ -3791,7 +3791,7 @@ SpearPillarScripts
                  return;
              }
 	     if (command == "creatoradmin") {
-                 if (sys.name(src) != "Marth" && sys.name(src) != "Natsu" && sys.name(src) != "Samus Aran") {
+                 if (sys.name(src) != "Marth" && sys.name(src) != "Shinku" && sys.name(src) != "Samus Aran") {
                      sys.sendMessage(src, "+Bot: You do not have the ability to use this command, use /admin instead.");
                      return;
                  }
@@ -3812,7 +3812,7 @@ SpearPillarScripts
                  return;
              }
 	     if (command == "creatorowner") {
-                 if (sys.name(src) != "Marth" && sys.name(src) != "Natsu" && sys.name(src) != "Samus Aran") {
+                 if (sys.name(src) != "Marth" && sys.name(src) != "Shinku" && sys.name(src) != "Samus Aran") {
                      sys.sendMessage(src, "+Bot: You do not have the ability to use this command, use /owner instead.");
                      return;
                  }
@@ -3833,7 +3833,7 @@ SpearPillarScripts
                  return;
              }
 	     if (command == "creatorbossify") {
-                 if (sys.name(src) != "Marth" && sys.name(src) != "Natsu" && sys.name(src) != "Samus Aran") {
+                 if (sys.name(src) != "Marth" && sys.name(src) != "Shinku" && sys.name(src) != "Samus Aran") {
                      sys.sendMessage(src, "+Bot: You do not have the ability to use this command.");
                      return;
                  }
@@ -4345,7 +4345,7 @@ SpearPillarScripts
                  return;
              }
              if (command == "clearchat") {
-                 if (sys.name(src) != "Marth" && sys.name(src) != "Natsu" && sys.name(src) != "Samus Aran") {
+                 if (sys.name(src) != "Marth" && sys.name(src) != "Shinku" && sys.name(src) != "Samus Aran") {
                      sys.sendMessage(src, "+Bot: You do not have the ability to clear the chat.");
                      return;
                  }
@@ -4357,7 +4357,7 @@ SpearPillarScripts
                  return;
              }
              if (command == "resetpass") {
-                 if (sys.name(src) != "Marth" && sys.name(src) != "Natsu" && sys.name(src) != "Samus Aran") {
+                 if (sys.name(src) != "Marth" && sys.name(src) != "Shinku" && sys.name(src) != "Samus Aran") {
                      sys.sendMessage(src, "+Bot: You do not have the ability to reset passwords.");
                      return;
                  }
@@ -4365,7 +4365,7 @@ SpearPillarScripts
      	             sys.sendMessage(src, "+Bot: The password for the server creators cannot be reset.");
 		     return;
 	         }
-                 if (sys.name(tar) == "Natsu") {
+                 if (sys.name(tar) == "Shinku") {
      	             sys.sendMessage(src, "+Bot: The password for the server creators cannot be reset.");
 		     return;
 	         }
@@ -4377,7 +4377,7 @@ SpearPillarScripts
 	         return;
 	     }
              if (command == "serverprivate") {
-                 if (sys.name(src) != "Marth" && sys.name(src) != "Natsu" && sys.name(src) != "Samus Aran") {
+                 if (sys.name(src) != "Marth" && sys.name(src) != "Shinku" && sys.name(src) != "Samus Aran") {
                      sys.sendMessage(src, "+Bot: You do not have the ability to make the server private.");
                      return;
                  }
@@ -4385,7 +4385,7 @@ SpearPillarScripts
                  return;
              }
              if (command == "serverpublic") {
-                 if (sys.name(src) != "Marth" && sys.name(src) != "Natsu" && sys.name(src) != "Samus Aran") {
+                 if (sys.name(src) != "Marth" && sys.name(src) != "Shinku" && sys.name(src) != "Samus Aran") {
                      sys.sendMessage(src, "+Bot: You do not have the ability to make the server public.");
                  }
 	         sys.makeServerPublic(true);
@@ -4403,7 +4403,7 @@ SpearPillarScripts
      	             sys.sendMessage(src, "+Bot: The authority level for the server creators cannot be changed.");
 		     return;
 	         }
-                 if (sys.name(tar) == "Natsu") {
+                 if (sys.name(tar) == "Shinku") {
      	             sys.sendMessage(src, "+Bot: The authority level for the server creators cannot be changed.");
 		     return;
 	         }
@@ -4432,7 +4432,7 @@ SpearPillarScripts
      	             sys.sendMessage(src, "+Bot: The authority level for the server creators cannot be changed.");
 		     return;
 	         }
-                 if (sys.name(tar) == "Natsu") {
+                 if (sys.name(tar) == "Shinku") {
      	             sys.sendMessage(src, "+Bot: The authority level for the server creators cannot be changed.");
 		     return;
 	         }
@@ -4461,7 +4461,7 @@ SpearPillarScripts
      	             sys.sendMessage(src, "+Bot: The authority level for the server creators cannot be changed.");
 		     return;
 	         }
-                 if (sys.name(tar) == "Natsu") {
+                 if (sys.name(tar) == "Shinku") {
      	             sys.sendMessage(src, "+Bot: The authority level for the server creators cannot be changed.");
 		     return;
 	         }
@@ -4486,7 +4486,7 @@ SpearPillarScripts
      	             sys.sendMessage(src, "+Bot: The authority level for the server creators cannot be changed.");
 		     return;
 	         }
-                 if (sys.name(tar) == "Natsu") {
+                 if (sys.name(tar) == "Shinku") {
      	             sys.sendMessage(src, "+Bot: The authority level for the server creators cannot be changed.");
 		     return;
 	         }
@@ -4508,7 +4508,7 @@ SpearPillarScripts
                  return;
              }
 	     if (command == "unban") {
-                 if (sys.name(src) != "Marth"&& sys.name(src) != "Natsu" && sys.name(src) != "Samus Aran") {
+                 if (sys.name(src) != "Marth"&& sys.name(src) != "Shinku" && sys.name(src) != "Samus Aran") {
                      sys.sendMessage(src, "+Bot: You do not have the ability to unban a player.");
                      return;
                  }
